@@ -1,0 +1,37 @@
+﻿# ── Data & Large Files ────────────────────────────────
+DataSet.csv
+*.csv.gz
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.pytest_cache/
+*.coverage
+.env
+
+# ── CatBoost Training Artifacts (never commit) ────────
+catboost_info/
+experiments/
+*.tmp
+
+# ── Node / Frontend ───────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ── Docker / Secrets ──────────────────────────────────
+.env
+*.pem
+*.key
+
+# ── OS junk ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
